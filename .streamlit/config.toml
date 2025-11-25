@@ -1,0 +1,8 @@
+[server]
+headless = true
+enableCORS = false
+port = $PORT
+
+[global]
+# Optional: pass pip extra args to avoid metadata warnings
+pip_extra_args = "--use-deprecated=legacy-resolver"
