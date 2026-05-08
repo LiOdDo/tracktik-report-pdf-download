@@ -2,6 +2,3 @@
 headless = true
 enableCORS = false
 port = 8501
-
-[global]
-pip_extra_args = "--use-deprecated=legacy-resolver"
